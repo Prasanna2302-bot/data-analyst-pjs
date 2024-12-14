@@ -9,11 +9,17 @@ The primary objective of this project is to perform a descriptive analysis of bi
 Determine the average speed limits for different types of bikeways.
 Explore how speed limits affect the frequency of snow removal.
 Dataset
+![image](https://github.com/user-attachments/assets/27b7cf6e-dffb-4e98-8133-709b1cc4e84e)
+
 The analysis utilizes the bikeways2.csv dataset, which includes:
+![image](https://github.com/user-attachments/assets/9aa90734-ffbb-4994-925b-cec11bbe5a39)
 
 Bikeway types and their attributes.
 Speed limit data for each bikeway.
+![image](https://github.com/user-attachments/assets/64e4b3a8-ab09-44fc-8903-5b101e73012c)
+
 Snow removal records for different streets.
+
 Methodology
 Part 1: Descriptive Analysis
 
@@ -35,6 +41,8 @@ Exploratory Question: "How do speed limits impact the frequency of snow removal 
 Data Ingestion:
 Load the cleaned dataset from S3 for further analysis.
 Data Profiling:
+![image](https://github.com/user-attachments/assets/62613cec-728e-46cb-85e9-b6f86b65bff5)
+
 Assess data quality and identify gaps affecting snow removal.
 Data Cleaning:
 Address data inconsistencies and prepare for advanced queries.
@@ -42,6 +50,8 @@ Data Pipeline Design:
 Use AWS Glue to filter and aggregate data by bikeway type.
 Analyze snow removal frequency and its relationship with speed limits.
 Data Visualization
+![image](https://github.com/user-attachments/assets/88d21f0d-f5eb-48c6-902c-ea7ab1cf0067)
+
 Visual representations include:
 Bar Charts: Comparing speed limits across bikeway types.
 Heatmaps: Frequency of snow removal by geographic location and bikeway type.
@@ -59,7 +69,11 @@ Data Visualizations:
 Insights presented through bar charts and heatmaps.
 Impact
 This project enables the City of Vancouver to:
+![image](https://github.com/user-attachments/assets/0359b0e9-1a3b-4ea7-9144-01eb9edce7be)
+
 
 Optimize bikeway management by understanding speed limit trends.
 Improve operational efficiency for snow removal services.
+![image](https://github.com/user-attachments/assets/d9f3752a-ee7e-4b6e-8b15-2fabfde9a1c9)
+
 Enhance urban infrastructure planning with actionable insights.
